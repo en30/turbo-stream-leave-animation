@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turbo Stream Lave Animation</title>
+</head>
+
+<body>
+  <div class="container mx-auto py-4">
+    <ul class="p-4 space-y-4 bg-indigo-300 bg-stripes bg-stripes-white rounded-md" data-controller="stream-stub">
+      <li id="1" class="rounded-md text-white font-extrabold text-center bg-indigo-500 p-6" data-controller="leave-animation" data-leave-animation-base-class="fade-out" data-leave-animation-active-class="fade-out-active">
+        <button class="text-3xl" data-action="stream-stub#removeParent">&times;</button>
+      </li>
+      <li id="2" class="rounded-md text-white font-extrabold text-center bg-indigo-500 p-6" data-controller="leave-animation" data-leave-animation-base-class="fade-out" data-leave-animation-active-class="fade-out-active">
+        <button class="text-3xl" data-action="stream-stub#removeParent">&times;</button>
+      </li>
+      <li id="3" class="rounded-md text-white font-extrabold text-center bg-indigo-500 p-6" data-controller="leave-animation" data-leave-animation-base-class="fade-out" data-leave-animation-active-class="fade-out-active">
+        <button class="text-3xl" data-action="stream-stub#removeParent">&times;</button>
+      </li>
+    </ul>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-out {
+  @apply transition-opacity duration-200 opacity-100;
+}
+.fade-out-active {
+  @apply opacity-0;
+}
